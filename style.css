@@ -638,10 +638,12 @@ footer span {
   }
   .team-container,
   .contact-container,
-  .photo-container,
   .topFooter-container,
   .services-container,
   .input-container {
+    grid-template-columns: 1fr;
+  }
+  .photo-container {
     grid-template-columns: 1fr 1fr;
   }
   .counts-container {
